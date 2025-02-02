@@ -27,3 +27,13 @@ This project implements a blockchain-based Two-Factor Authentication (2FA) syste
 ```sh
 git clone https://github.com/your-repo/blockchain-2fa.git](https://github.com/rakshit-singh1/decentralized-otp-verification.git
 cd blockchain-2fa
+
+### 2️⃣ Install Dependencies
+After deploying the contract, navigate to the frontend directory and install the required packages:
+```sh
+npm install
+
+### 3️⃣ Run the Frontend
+Once dependencies are installed, start the Vite development server:
+```sh
+npm run dev
