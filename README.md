@@ -1,33 +1,29 @@
 # Blockchain 2FA System
 
-This project implements a **blockchain-based two-factor authentication (2FA) system** using **Ethereum smart contracts** and a **React (Vite) frontend**. The smart contract is deployed on a testnet and interacts with the frontend via MetaMask.
+This project implements a blockchain-based Two-Factor Authentication (2FA) system using Solidity for the smart contract and React (Vite) for the frontend. It allows users to register, generate OTPs, sign them, and verify authentication using MetaMask.
 
-## 📜 Smart Contract
+## 🚀 Features
+- Register users with a cryptographic OTP seed.
+- Generate and sign OTPs using MetaMask.
+- Verify OTPs using Ethereum signatures.
+- Secure authentication with a smart contract.
 
-The **`Blockchain2FA.sol`** contract is stored in the `contract/` folder. It allows users to:
-- **Register** with an OTP seed.
-- **Generate and sign OTPs** using their Ethereum private key.
-- **Verify OTPs** securely on-chain.
-- **Deregister** from the system.
+---
 
-### 🚀 Deploying the Smart Contract
+## 📜 Smart Contract Deployment
 
-To deploy the smart contract using **Remix**:
+1. Navigate to the `contract` folder and locate `OTP.sol`.
+2. Open [Remix](https://remix.ethereum.org/).
+3. Upload `OTP.sol` to Remix.
+4. Compile the contract using Solidity 0.8.20.
+5. Deploy the contract to a testnet (e.g., Sepolia) using MetaMask.
+6. Copy the deployed contract address for frontend integration.
 
-1. Open **Remix IDE** ([Remix Ethereum](https://remix.ethereum.org)).
-2. Create a new file and copy the contents of `contract/Blockchain2FA.sol` into it.
-3. Compile the contract with Solidity **0.8.20**.
-4. Go to the **Deploy & Run Transactions** tab.
-5. Select **Injected Provider - MetaMask** and connect to **Sepolia Testnet**.
-6. Click **Deploy** and save the contract address.
+---
 
 ## 💻 Frontend Setup
 
-The frontend is built using **Vite + React + Material-UI**.
-
-### 🔧 Installation
-
-Clone the repository and navigate to the project directory:
-
+### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your
+git clone https://github.com/your-repo/blockchain-2fa.git](https://github.com/rakshit-singh1/decentralized-otp-verification.git
+cd blockchain-2fa
